@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>About my web</title>
+</head>
+<body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+            <div class="container">
+                <a href="index.html" class="navbar-brand text-warning"><i class="bi bi-pin text-danger"></i> About My Web</a>
+            </div>
+        </nav>
+    
+        <section id="learn" class="p-5">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-md">
+                        <img src="img/fundamentals.svg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md p-5">
+                        <h2 class="text-primary">網站架構與內容</h2>
+                        <p class="lead">
+                            設計理念、主要內容是 Frontend Bootcamp (前端課程網站)
+                        </p>
+                        <p>
+                            <ul>
+                                <li>主頁面是前端課程的官方網站。</li>
+                                <br>
+                                <li><strong>主導覽列：</strong>導覽列上放了6個學員作品預覽，讓使用者可以了解參與此課程能夠學到的技術與能力。</li>
+                                <br>
+                                <li><strong>網站架構：</strong>整體網站我使用了bootstrap最經典的藍、白、黑顏色作為區別，設計了表單、訂閱電子報、課程內容、常見問題、師資陣容、聯絡方式以及導入mapbox地圖圖資。</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section id="learn" class="p-5 bg-dark text-light">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-md p-5">
+                        <h2 class="text-warning">作品分析</h2>
+                        <p class="lead">
+                            簡述設計理念與技術...
+                        </p>
+                        <p>
+                            <ol>
+                                <li><strong>主頁面 : </strong>作為課程宣傳網站，我使用了大量的Bootstrap來做編排與設計，並導入mapbox API的圖資。</li>
+                                <br>
+                                <li><strong>blog : </strong>利用Hexo框架架設的blog, 並使用NexT作為blog主題，再deploy至Github上。</li>
+                                <br>
+                                <li><strong>音樂播放器 : </strong>主要利用JS來實現動態互動效果，音樂播放、專輯轉換與轉動、進度條的讀取與調整等等。</li>
+                                <br>
+                                <li><strong>圖片切換 : </strong>主要利用JS的button click event來實現動態互動效果。</li>
+                                <br>
+                                <li><strong>模糊讀取 : </strong>主要利用JS的function，讓數字的opacity隨時間改變，畫面則是用filter blur的效果，也隨時間改變。</li>
+                                <br>
+                                <li><strong>購物網站 : </strong>利用JS on click和CSS寫出讓商品飛入購物籃並逐漸透明化的效果。</li>
+                                <br>
+                                <li><strong>彈出視窗 : </strong>利用CSS動畫效果寫出讓視窗固定一個點，做旋轉的效果。</li>
+                            </ol>
+                        </p>
+                        <a href="index.html" class="btn btn-light mt-3">
+                            <i class="bi bi-chevron-left"></i> Back
+                        </a>
+                    </div>
+                    <div class="col-md">
+                        <img src="img/react.svg" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+</body>
+</html>
